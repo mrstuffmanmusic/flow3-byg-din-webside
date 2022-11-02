@@ -1,0 +1,107 @@
+    /* CSS reset - alting får 0 i marin og padding */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+   /* Forside */
+    .bogh { 
+        background-color: red;
+        padding: 15px;
+        margin: 15px;
+        align-items: flex-end;
+    }
+    /* Headings/Titles */
+    .box {
+        background-color: lightblue;
+        margin: 10px;
+        padding: 10px;
+        color:black;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        height: adjust;
+        width: adjust;
+        align-items: center;
+    }
+
+    .box1 {
+        background-color: white;
+        margin: 10px;
+        color: blue;
+        font-size: xx-large;
+        font-family: arial, Helvetica, sans-serif;
+        font-style: b;
+        width: 200px;
+      
+    }
+    
+    /* Om Jannnie*/
+
+    .box2 {
+        background-color: lightcoral;
+        margin: 10px;
+        padding: 10px;
+        color:white;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        height: adjust;
+        align-items: center;
+    }
+  
+    .om-jannie {
+
+        flex-direction: column;
+        /* Nu Styrer denne pludselig den lodrette fordeling */
+        justify-content: space-between;
+        /* ... og denne styrere nu det vandrette*/
+        align-items: center;
+            }
+   
+    /* Jannies Motivation */      
+    .box3 {
+        background-color: lightcoral;
+        margin: 10px;
+        padding: 10px;
+        color:white;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        height: adjust;
+        width: adjust;
+        align-items: center;
+    }
+    /* Jannies Mærkesager */  
+    .box4 {
+        background-color: lightskyblue;
+        margin: 10px;
+        padding: 10px;
+        color:white;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        height: adjust;
+        width: adjust;
+        align-items: center;
+    }
+    /* Mærkesager */  
+    .box5 {
+        background-color: lightsteelblue;
+        margin: 10px;
+        padding: 10px;
+        color:black;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        height: adjust;
+        width: adjust;
+        align-items: center;
+    }
+    /* So-Me/Konktakt */
+    .socials {
+        background-color: red;
+        margin: 10px;
+        padding: 10px;
+        color:black;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        height: 300px;
+        width: adjust;
+        align-items: center;
+    }
+   
